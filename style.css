@@ -22,12 +22,17 @@ body {
     
 }
 
-.profile {
+.profile1 {
     float: left;
-    
+
     margin-right: 10px;
 }
 
+.profile2 {
+    float:left;
+    margin-right: 10px;
+    
+}
 .profile img {
     float: left;
     width: 50px; 
