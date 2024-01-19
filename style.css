@@ -2,7 +2,7 @@ body {
     font-family:Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    backgroud-color: white;
+    background-color: white;
 }
 .photo {
     width: 100%;
@@ -11,7 +11,8 @@ body {
     margin-bottom: 10px;
 }
 .box{
-    width: 30%;
+    width: 100px;
+    height: 200px;
     margin: 20px;
     float: left;
     box-sizing: border-box;
@@ -28,10 +29,11 @@ body {
 
 .profile img {
     float: left;
-    width: 50px; /* Adjust the size of the profile picture */
+    width: 50px; 
     border-radius: 50%;
 }
 
 .text {
-    overflow: hidden;
+    float: right;
+
 }
