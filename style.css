@@ -20,10 +20,11 @@ body {
 .box{
     display:flex;
     flex-wrap:wrap;
-    flex-direction:row;
+    flex-direction:column;
+    float:left;
     height: 100px;
     margin: 10px 10px 2.5px 10px;
-    border:5px solid #006400;
+    border:5px solid #037003;
     box-sizing: border-box;
     background-color: #b8f7b8;
     padding: 20px 20px 20px 20px;
@@ -34,7 +35,11 @@ body {
 .box1 {
     display:flex;
     flex-wrap:wrap;
-    flex-direction:row;
+    flex-direction:column;
+    color: #022002;
+    margin: 2px 40px 2px 2px;
+    border: 1px 20px 1px 1px;
+    padding: 0.3px 10px 0.3px 0.3px;
 }
 .profile1 {
     display:flex;
