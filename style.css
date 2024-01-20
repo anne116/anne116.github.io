@@ -16,14 +16,18 @@ body {
     border: 10px 10px 10px 10px;
     padding: 3px 3px 3px 3px;
 }
-
+.phototext {
+    margin: 20px 20px 2px 20px;
+    border: 10px 10px 10px 10px;
+    padding: 3px 3px 3px 3px;    
+}
 .box{
     display:flex;
+    align-items: left;
     flex-wrap:wrap;
     flex-direction:column;
-    float:left;
-    height: 100px;
-    margin: 10px 10px 2.5px 10px;
+    height: auto;
+    margin: 10px 10px 1px 10px;
     border:5px solid #037003;
     box-sizing: border-box;
     background-color: #b8f7b8;
@@ -32,29 +36,20 @@ body {
     
 }
 
-.box1 {
-    display:flex;
-    flex-wrap:wrap;
-    flex-direction:column;
-    color: #022002;
-    margin: 2px 40px 2px 2px;
-    border: 1px 20px 1px 1px;
-    padding: 0.3px 10px 0.3px 0.3px;
+.boxpic {
+    border-radius:50%;
+    width:70px;
+    margin-right: 10px;
+    /* height:70px;
+    float:left; */
 }
-.profile1 {
-    display:flex;
+.boxtext {
+    /* display:flex;
     flex-wrap:wrap;
     flex-direction:column;
-    border:3px #006400;
-    padding: 5px 5px 5px 5px;
+    color: #022002; */
+    flex:1;
+
 }
 
-.profile2 {
-    display:flex;
-    flex-wrap:wrap;
-    flex-direction:column;
-    /* border:3px dashed #0d07be; */
-    padding: 5px 5px 5px 5px;
-    height: 20px;
-}
 
