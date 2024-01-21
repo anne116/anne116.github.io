@@ -31,7 +31,8 @@
 }
 .phototext {
     text-align: center;
-    font-size:24px; 
+    font-size:24px;
+    font-weight:bold; 
     font-family: 'Franklin Gothic Medium';
     color: rgb(171, 3, 3);
     margin: 10px 20px 2px 20px;
