@@ -1,1 +1,1 @@
-
+//You will learn the basic skill of javascript next week, but it’s a good time to try to overcome some simple problems on your own first. Your job is to complete the following two functions.1. countAandB: count how many ‘a’ and ‘b’ letters are in the given input and return the total number.2. toNumber: convert English letters to numbers, let ‘a’ to be 1, ‘b’ to be 2, and so on.
