@@ -16,12 +16,11 @@ headline.addEventListener('click', () => {
     headline.textContent = "Have a Good Day!";
 });
 
-
 const ctabutton = document.querySelector('.cta');
+const container2 = document.querySelector('.container2');
+container2.style.display = 'none';
 
 ctabutton.addEventListener('click', () => {
-    const container2 = document.querySelector('.container2');
-
     if (container2.style.display === 'none') {
         container2.style.display = 'flex';
     } else {
