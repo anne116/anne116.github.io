@@ -42,10 +42,14 @@ router.get('/trackName', (req, res) => {
 
 router.get('/data', (req, res) => {
     const params = req.query.number;
-
-    if (isNaN(params) ) {
-        res.send('Wrong Parameter')
-    } else {
+    console.log(params);
+    if ( params === "" ) {
+        res.send('Lack Number');
+    }   else if (isNaN(params) ) {
+        res.send('Wrong Parameter');
+    }   else if ( params < 0 ) {
+        res.send('Wrong Parameter. The number you input is negative.')
+    }   else {
         let sum = 0;
         for ( let i = 0; i < Number(params)+1 ; i++ ) {
         sum += i;
