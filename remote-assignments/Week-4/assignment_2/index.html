@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>Render product list</title>
+    </head>
+
+    <body>
+        <div></div>
+        <script>
+            function render(data) {
+            // your code here
+            // document.createElement() and appendChild() methods are preferred.
+            const section = document.createElement('div');
+            data.forEach( product => {
+                    const productList = document.createElement('div');
+                    section.appendChild(productList);
+                });
+            document.body.appendChild(section);
+            }
+        </script>
+        
+        <script src="assignment_2.js"></script>
+    </body>
+
+
+</html>
